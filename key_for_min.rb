@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
  index = 0 
-  lowest_hash = {}
+  lowest_key = nil
 
   name_hash.collect do |key, value|
     if value[index] < value[index + 1]
